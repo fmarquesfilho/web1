@@ -1,0 +1,32 @@
+
+p.texto-verde {
+    color: green;
+}
+
+.texto-laranja {
+    color: orange;
+}
+
+.center {
+    text-align: center;
+}
+
+#main {
+    color: red;
+}
+
+p[italico="true"]{
+    font-style: italic;
+}
+
+p[italico="false"]{
+    font: 100
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* h1, h2, h3 {
+    text-align: right;
+} */
