@@ -1,0 +1,19 @@
+
+li {
+    color: green;
+    color: blue;
+}
+
+li {
+    color: black
+}
+
+.primeira-classe { color: yellow }
+
+#primeiro-id { color: orange }
+
+li[roxo] { color: purple } 
+
+/* li {
+    color: cyan !important;
+} */
