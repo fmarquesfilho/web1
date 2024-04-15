@@ -8,12 +8,12 @@ li {
     color: black
 }
 
-.primeira-classe { color: yellow }
-
-#primeiro-id { color: orange }
+.primeira-classe { color: cyan }
 
 li[roxo] { color: purple } 
 
+#primeiro-id { color: orange }
+
 /* li {
-    color: cyan !important;
+    color: brown !important;
 } */
