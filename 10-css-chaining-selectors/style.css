@@ -1,0 +1,25 @@
+
+.imagem {
+    height: 150px;
+}
+
+.destaque {
+    font-weight: bold;
+}
+
+.imagem.destaque {
+    height: 300px;
+}
+
+div.destaque {
+    text-align: center;
+}
+
+#fruta {
+    margin: 20px;
+    padding: 15px;
+}
+
+div#fruta {
+    font-style: italic;
+}
