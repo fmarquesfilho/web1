@@ -1,0 +1,18 @@
+
+div p {
+    background-color: aquamarine;
+    padding: 10px;
+    flex-basis: 200px;
+}
+
+.imagem {
+    height: 200px;
+    padding: 10px;
+}
+
+.container {
+    /* display: inline-flex; */
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
