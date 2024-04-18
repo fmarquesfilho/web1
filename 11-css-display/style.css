@@ -1,0 +1,37 @@
+
+.imagem {
+    height: 100px;
+}
+
+.block {
+    display: block
+}
+
+.inline {
+    display: inline
+}
+
+p {
+    color: white;
+}
+
+.vermelho {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.verde {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.azul {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: blue;   
+}
