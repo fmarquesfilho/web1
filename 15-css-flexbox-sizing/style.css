@@ -1,0 +1,46 @@
+
+div.menu-container {
+    display: flex;
+    gap: 10px;
+}
+
+p.menu-item {
+    background-color: aquamarine;
+    /* width: 150px; */
+    /* flex-basis: 200px; */ /* ignora o width configurado anteriormente */
+    /* max-width: 120px; */ /* escolhe o menor valor entre flex-basis e max-width */
+    /* min-width: 250px; */ /* quando o min-width é maior que flex-basis, vale o min-width */
+
+    /* flex-grow: permite que cada item do container se expanda até preencher todo o espaço; 0 é o default */
+    /* flex-shrink: permite que cada item do container se contraia até preencher todo o espaço; 1 é o default */
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    /* flex: 1 1 0; */ /* maneira resumida de colocar grow = 1, shrink = 1 e o flex-basis = 0. ou somente flex: 1 neste caso */
+    flex: 1;
+}
+
+div.colunas {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+p.coluna-vermelha {
+    background-color: red;
+    flex: 1
+}
+
+p.coluna-vermelha {
+    background-color: red;
+    flex: 1
+}
+
+p.coluna-azul {
+    background-color: blue;
+    flex: 2
+}
+
+p.coluna-verde {
+    background-color: green;
+    flex: 3
+}
