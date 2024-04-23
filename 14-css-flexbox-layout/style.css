@@ -1,0 +1,40 @@
+
+div > p {
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* nowrap, wrap, wrap-reverse */
+    justify-content: flex-start; /* flex-start, flex-end, center, space-between, space-around, space-evenly */
+    height: 100vh;
+    /* align-items: flex-start; */ /* funciona com nowrap */
+    align-content: flex-start; /* funciona com wrap */
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.laranja {
+    background-color: orange;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.verde {
+    background-color: green;
+    /* order: 1; */
+}
+
+.azul {
+    background-color: blue;
+    /* order: 2; */
+}
+
+.violeta {
+    background-color: violet;
+    /* align-self: center; */
+}
