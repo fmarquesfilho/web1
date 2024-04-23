@@ -19,28 +19,23 @@ p.menu-item {
     flex: 1;
 }
 
-div.colunas {
+div.blocos {
     display: flex;
     flex-direction: column;
     height: 80vh;
 }
 
-p.coluna-vermelha {
+p.bloco-vermelho {
     background-color: red;
     flex: 1
 }
 
-p.coluna-vermelha {
-    background-color: red;
-    flex: 1
-}
-
-p.coluna-azul {
+p.bloco-azul {
     background-color: blue;
     flex: 2
 }
 
-p.coluna-verde {
+p.bloco-verde {
     background-color: green;
     flex: 3
 }
