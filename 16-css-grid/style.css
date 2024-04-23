@@ -1,0 +1,18 @@
+
+.container {
+    display: grid;
+    gap: 10px;
+    /* usando frações */
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    /* usando auto size */
+    grid-template-rows: 300px auto; /* se ajusta ao conteúdo da linha */
+    grid-template-columns: 200px auto; /*  vai ocupar 100% da tela do navegador horizontalmente */
+    /* usando minmax */
+    grid-template-rows: 200px 400px;
+    grid-template-columns: 200px minmax(400px,800px);
+}
+
+p {
+    background-color: aquamarine;
+}
