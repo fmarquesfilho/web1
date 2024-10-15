@@ -1,3 +1,47 @@
 html {
-    background: green;
+    background: rgb(195, 250, 195);
+}
+
+h1 h2 {
+    color: darkorange;
+}
+
+div > * {
+    padding: 0px;
+    color:crimson;
+}
+
+div {
+    text-decoration: underline;
+}
+
+#descricao {
+    font-family: monospace;
+    color:brown
+}
+
+.paragrafo {
+    color:darkgreen
+}
+
+p {
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+}
+
+p[negrito] {
+    font-weight: 700;
+}
+
+p[negrito="desligado"] {
+    font-weight: 100;
+}
+
+#corpo {
+    color: blueviolet;
+}
+
+.destacado {
+    color: darkgrey;
 }
