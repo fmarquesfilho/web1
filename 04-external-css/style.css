@@ -22,11 +22,11 @@ div {
 
 #descricao {
     font-family: monospace;
-    color:brown
+    color:rgb(255, 130, 234)
 }
 
 .paragrafo {
-    color:darkgreen
+    color:rgb(133, 191, 245)
 }
 
 p {
