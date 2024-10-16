@@ -1,5 +1,5 @@
 html {
-    background: rgb(195, 250, 195);
+    background: rgb(5, 40, 5);
 }
 
 h1 h2 {
@@ -11,8 +11,13 @@ div > * {
     color:crimson;
 }
 
+* {
+    color: rgb(224, 225, 221);
+}
+
 div {
     text-decoration: underline;
+    color: black;
 }
 
 #descricao {
